@@ -1,0 +1,47 @@
+.PosterTitle{
+    padding: 10px;
+    padding-left: 21px;
+    color: white;
+    padding-bottom: 5px;
+}
+.PosterCard{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.PosterImage{
+    margin: 10px;
+    width: 350px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.PosterCard::-webkit-scrollbar{
+    display: none;
+}
+.PosterImage:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.otherGeners{
+    padding: 10px;
+    color: white;
+    padding-bottom: 5px;
+}
+.other-gener{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.PosterImageOther{
+    margin: 10px;
+    width: 250px;
+    transition: all 0.5s;
+    border-radius: 10px;
+}
+.PosterImageOther:hover{
+    transform: scale(1.08);
+    cursor: pointer;
+}
+.other-gener::-webkit-scrollbar{
+    display: none;
+}

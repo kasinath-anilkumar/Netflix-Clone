@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.otherGeners::-webkit-scrollbar{
+    display: none;
+}
